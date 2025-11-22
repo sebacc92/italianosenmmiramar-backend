@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autoridades",
+  "info": {
+    "singularName": "autoridad",
+    "pluralName": "autoridades",
+    "displayName": "autoridades"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre_completo": {
+      "type": "string"
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "consejo_directivo",
+        "tribunal_honor",
+        "presidente_honorario"
+      ]
+    },
+    "orden": {
+      "type": "integer"
+    }
+  }
+}
