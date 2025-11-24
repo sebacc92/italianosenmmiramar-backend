@@ -11,9 +11,7 @@
       "multiple": true,
       "allowedTypes": [
         "images",
-        "files",
-        "videos",
-        "audios"
+        "videos"
       ]
     },
     "titulo": {
@@ -21,6 +19,11 @@
     },
     "subtitulo": {
       "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "component": "componente.link",
+      "repeatable": false
     }
   },
   "config": {}
