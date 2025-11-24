@@ -11,10 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "sections": {
-      "type": "component",
-      "component": "layout.hero-section",
-      "repeatable": true
+    "hero": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.hero-section"
+      ]
     }
   }
 }
