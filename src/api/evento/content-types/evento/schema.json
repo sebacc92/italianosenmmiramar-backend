@@ -35,6 +35,12 @@
     },
     "destacado": {
       "type": "boolean"
+    },
+    "slug": {
+      "type": "string",
+      "default": "#",
+      "required": true,
+      "unique": true
     }
   }
 }
